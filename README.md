@@ -3,7 +3,7 @@ Depuis l'affaire Roswell les observations d'objets celestes non identifés se so
 
 # Réalisé
 * AAYADI ELMEHDI
-* DAHIR AMIN 
+* DAHER AMIN 
 # Travail à Faire
  * Récupérer les données sur cette page : http://www.cnes-geipan.fr/index.php?id=181&no_cache=1&tx_ttnews%5BbackPid%5D=211&tx_ttnews%5Btt_news%5D=330 il s'agit de fichiers .csv. Un autre fichier contient la description des différentes colonnes. La base se compose de deux collections liées : les cas et les témoignages. 
  * Vous devrez d'abord les importer dans MongoDB, réfléchissez bien car Mongo n'est pas une BD relationnelle. Il faudra peut-être merger ces données en une seule collection, ou bien, si vous conservez les deux collections, afficher un lien pour consulter dans la page affichant un témoignage le détail du cas d'observation, et vice versa : dans la page d'un cas, afficher un lien vers les témoignages.
