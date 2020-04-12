@@ -10,26 +10,17 @@
 
 <body>
     <h2> Back Office </h2>
-
-    <!-- <form action="#">
-
-        <label>Host:</label>
-        <input type="text" name="host" id="host" required>
-        <br>
-        <label>File csv des cas:</label>
-        <input type="file" accept=".csv" name="upload_cas" id="upload_cas" onchange="check_input('upload_cas')" />
-        <span id="upload_cas$"></span>
-        <br>
-        <label>File csv des témoignage:</label>
-        <input type="file" accept=".csv" name="upload_tem" id="upload_tem" onchange="check_input('upload_tem')" />
-        <span id="upload_tem$"></span>
-        <br> -->
-
-<!-- // faire les lien href pour l'api -->
-
-        <button type="button" onclick="lancement()"> Valider </button>
-
-    <!-- </form>  -->
+    <br>
+  
+    <ul>
+        <li>Un GET sur <code>/api/cases</code> pour avoir tous les cases.</li>
+        <p>
+        <li>Un GET sur <code>/api/cases/:id</code> pour avoir information d'un cas en passant son ObjectId.</li>
+        <p>
+        <li>Un GET sur <code>/api/cas-temoignages/:id</code> pour avoir les temoignages du cas en passant id du cas.</li>
+        <p>
+        <li>Un GET sur <code>/api/temoignages/:id</code> pour avoir information d'un temoignage en passant son ObjectId.</li>
+    </ul>
 
 </body>
 
